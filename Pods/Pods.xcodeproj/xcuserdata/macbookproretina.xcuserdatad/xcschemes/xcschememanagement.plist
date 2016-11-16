@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FSCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Moneybook.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MoneybookTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MoneybookUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>08692E48C2E19DF9259CE2FCCB1F822D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38CC91A38BAE9DBB1C0A0D86216CC363</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ABE4142B5FB19227B90E66AB13139BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>868010619D7E6CBA5C6E6E2874668C85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SecondViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTodoViewController.datePickAction(Any) -&gt; ():AddTodoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myDatePicker.date">
+            </PersistentString>
+            <PersistentString
+               value = "myDatePicker">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
