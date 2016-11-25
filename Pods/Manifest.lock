@@ -1,12 +1,41 @@
 PODS:
+  - Alamofire (4.1.0)
+  - Charts (3.0.0):
+    - Charts/Core (= 3.0.0)
+  - Charts/Core (3.0.0)
+  - CorePlot (2.2)
   - FSCalendar (2.3.0)
+  - Realm (2.0.4):
+    - Realm/Headers (= 2.0.4)
+  - Realm/Headers (2.0.4)
+  - RealmSwift (2.0.4):
+    - Realm (= 2.0.4)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Charts (from `https://github.com/danielgindi/Charts.git`, branch `master`)
+  - CorePlot (~> 2.2)
   - FSCalendar
+  - RealmSwift (~> 2.0.2)
+
+EXTERNAL SOURCES:
+  Charts:
+    :branch: master
+    :git: https://github.com/danielgindi/Charts.git
+
+CHECKOUT OPTIONS:
+  Charts:
+    :commit: 9a3f389de2e161b1af35fab025524aac9e60ddfd
+    :git: https://github.com/danielgindi/Charts.git
 
 SPEC CHECKSUMS:
+  Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  Charts: 3f0da988b104c8e5f069fcef55da699f597dac67
+  CorePlot: cbe0c6e14220705e32e06a89c7d6a5a908b7d7d8
   FSCalendar: cbcca5ee332cf8d348db77ccda6b029ced42f84a
+  Realm: 9da97f48365f8b99dd95c28d45ad8222d62e1775
+  RealmSwift: 01e8db006035f16003e6307ae8eae1adccce68db
 
-PODFILE CHECKSUM: 7449c39410c68ee495b2fdd46dab0bfae6d4806b
+PODFILE CHECKSUM: 85b9fa5da9449db2a2caf67aa5af49bc49c74111
 
 COCOAPODS: 1.0.1

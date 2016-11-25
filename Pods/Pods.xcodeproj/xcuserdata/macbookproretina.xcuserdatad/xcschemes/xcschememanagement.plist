@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CorePlot.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FSCalendar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,15 +39,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>07C004EE9675A950E771D1109A09AE79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>08692E48C2E19DF9259CE2FCCB1F822D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38CC91A38BAE9DBB1C0A0D86216CC363</key>
+		<key>221295E501597E28DB5ABFC7CA717C27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>336E33720EBBBE0CA57F46647989429B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>868010619D7E6CBA5C6E6E2874668C85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B34E2692AE21AF83ED93A58B3CC2EC1A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD8D88E11F267207CF0EBFCDF88353B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

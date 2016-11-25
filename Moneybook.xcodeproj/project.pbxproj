@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		390092D72D4004FAAE5B45B4 /* Pods_MoneybookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27AA5DE57D97CE31B6B4F95 /* Pods_MoneybookUITests.framework */; };
+		760ABDD71DDD42380014E20B /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760ABDD61DDD42380014E20B /* PieChartViewController.swift */; };
 		760D21DD1DD5C48300DD75F8 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760D21DC1DD5C48300DD75F8 /* MoneyViewController.swift */; };
 		7637DFE41DD9B7B700271F62 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFE31DD9B7B700271F62 /* TODO.swift */; };
 		7637DFE61DD9BA7800271F62 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFE51DD9BA7800271F62 /* AddTodoViewController.swift */; };
 		7637DFE91DD9BD7F00271F62 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFE81DD9BD7F00271F62 /* GlobalVariable.swift */; };
 		7637DFEC1DD9D94800271F62 /* SpecificaitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFEB1DD9D94800271F62 /* SpecificaitonViewController.swift */; };
 		7654A0D51DD994D300AE669D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654A0D41DD994D300AE669D /* SecondViewController.swift */; };
+		765F289F1DE12A53003C3E08 /* temp_requestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F289E1DE12A53003C3E08 /* temp_requestViewController.swift */; };
+		765F28A21DE13080003C3E08 /* temp_popViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F28A11DE13080003C3E08 /* temp_popViewController.swift */; };
+		765F28F11DE4851A003C3E08 /* PCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F28F01DE4851A003C3E08 /* PCViewController.swift */; };
 		76669D231DDAB22A00F934C7 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76669D221DDAB22A00F934C7 /* BudgetViewController.swift */; };
 		76669D251DDAC27100F934C7 /* AddBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76669D241DDAC27100F934C7 /* AddBudgetViewController.swift */; };
 		76669D271DDAD0B000F934C7 /* BudgetSpecificViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76669D261DDAD0B000F934C7 /* BudgetSpecificViewController.swift */; };
@@ -46,16 +50,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0F0A8318FAA19D50AF74C9 /* Pods-MoneybookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookTests/Pods-MoneybookTests.release.xcconfig"; sourceTree = "<group>"; };
+		14E0D7B936E23610915D34CE /* Pods-MoneybookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookUITests/Pods-MoneybookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1CB36A2BDB7F5F10BA8A882F /* Pods_Moneybook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F434BA588CCE920936EB7FE /* Pods-Moneybook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moneybook/Pods-Moneybook.debug.xcconfig"; sourceTree = "<group>"; };
-		4035E23003A7F24EE19E0059 /* Pods-Moneybook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moneybook/Pods-Moneybook.release.xcconfig"; sourceTree = "<group>"; };
-		4FDAF16AE9DD220489EDF4E6 /* Pods-MoneybookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookUITests/Pods-MoneybookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23FDC04F33AE69ACF84588E5 /* Pods-Moneybook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moneybook/Pods-Moneybook.debug.xcconfig"; sourceTree = "<group>"; };
+		5360215E29C1A097F8451904 /* Pods-MoneybookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookUITests/Pods-MoneybookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53FF507AEAA3DB7614B82972 /* Pods-MoneybookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookTests/Pods-MoneybookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		760ABDD61DDD42380014E20B /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		760D21DC1DD5C48300DD75F8 /* MoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
 		7637DFE31DD9B7B700271F62 /* TODO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		7637DFE51DD9BA7800271F62 /* AddTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
 		7637DFE81DD9BD7F00271F62 /* GlobalVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
 		7637DFEB1DD9D94800271F62 /* SpecificaitonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificaitonViewController.swift; sourceTree = "<group>"; };
 		7654A0D41DD994D300AE669D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		765F289E1DE12A53003C3E08 /* temp_requestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = temp_requestViewController.swift; sourceTree = "<group>"; };
+		765F28A11DE13080003C3E08 /* temp_popViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = temp_popViewController.swift; sourceTree = "<group>"; };
+		765F28F01DE4851A003C3E08 /* PCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCViewController.swift; sourceTree = "<group>"; };
 		76669D221DDAB22A00F934C7 /* BudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		76669D241DDAC27100F934C7 /* AddBudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBudgetViewController.swift; sourceTree = "<group>"; };
 		76669D261DDAD0B000F934C7 /* BudgetSpecificViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetSpecificViewController.swift; sourceTree = "<group>"; };
@@ -72,10 +82,8 @@
 		76D4F46E1DD2A75100F6FDA3 /* MoneybookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneybookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D4F4721DD2A75100F6FDA3 /* MoneybookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneybookUITests.swift; sourceTree = "<group>"; };
 		76D4F4741DD2A75100F6FDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		855B4805F596DE378A172F9F /* Pods-MoneybookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookUITests/Pods-MoneybookUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		ADDB271E8741ADD986EFBCF9 /* Pods-MoneybookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookTests/Pods-MoneybookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9DD8B72C7016358CFB78AEB /* Pods-Moneybook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moneybook/Pods-Moneybook.release.xcconfig"; sourceTree = "<group>"; };
 		D27AA5DE57D97CE31B6B4F95 /* Pods_MoneybookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneybookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7318BD5B80A460E26A01CFA /* Pods-MoneybookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookTests/Pods-MoneybookTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA229FE5EC5CF8ED6C17235D /* Pods_MoneybookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneybookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -157,6 +165,10 @@
 				7637DFEB1DD9D94800271F62 /* SpecificaitonViewController.swift */,
 				76669D241DDAC27100F934C7 /* AddBudgetViewController.swift */,
 				76669D261DDAD0B000F934C7 /* BudgetSpecificViewController.swift */,
+				760ABDD61DDD42380014E20B /* PieChartViewController.swift */,
+				765F289E1DE12A53003C3E08 /* temp_requestViewController.swift */,
+				765F28A11DE13080003C3E08 /* temp_popViewController.swift */,
+				765F28F01DE4851A003C3E08 /* PCViewController.swift */,
 			);
 			path = Moneybook;
 			sourceTree = "<group>";
@@ -182,12 +194,12 @@
 		928FB8D2B551D08CA0A3BB96 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F434BA588CCE920936EB7FE /* Pods-Moneybook.debug.xcconfig */,
-				4035E23003A7F24EE19E0059 /* Pods-Moneybook.release.xcconfig */,
-				ADDB271E8741ADD986EFBCF9 /* Pods-MoneybookTests.debug.xcconfig */,
-				E7318BD5B80A460E26A01CFA /* Pods-MoneybookTests.release.xcconfig */,
-				855B4805F596DE378A172F9F /* Pods-MoneybookUITests.debug.xcconfig */,
-				4FDAF16AE9DD220489EDF4E6 /* Pods-MoneybookUITests.release.xcconfig */,
+				5360215E29C1A097F8451904 /* Pods-MoneybookUITests.release.xcconfig */,
+				23FDC04F33AE69ACF84588E5 /* Pods-Moneybook.debug.xcconfig */,
+				A9DD8B72C7016358CFB78AEB /* Pods-Moneybook.release.xcconfig */,
+				53FF507AEAA3DB7614B82972 /* Pods-MoneybookTests.debug.xcconfig */,
+				0F0F0A8318FAA19D50AF74C9 /* Pods-MoneybookTests.release.xcconfig */,
+				14E0D7B936E23610915D34CE /* Pods-MoneybookUITests.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -463,16 +475,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765F289F1DE12A53003C3E08 /* temp_requestViewController.swift in Sources */,
 				760D21DD1DD5C48300DD75F8 /* MoneyViewController.swift in Sources */,
 				76D4F4551DD2A75100F6FDA3 /* ViewController.swift in Sources */,
 				7637DFEC1DD9D94800271F62 /* SpecificaitonViewController.swift in Sources */,
 				7637DFE41DD9B7B700271F62 /* TODO.swift in Sources */,
 				76669D231DDAB22A00F934C7 /* BudgetViewController.swift in Sources */,
 				76669D271DDAD0B000F934C7 /* BudgetSpecificViewController.swift in Sources */,
+				760ABDD71DDD42380014E20B /* PieChartViewController.swift in Sources */,
+				765F28F11DE4851A003C3E08 /* PCViewController.swift in Sources */,
 				7637DFE61DD9BA7800271F62 /* AddTodoViewController.swift in Sources */,
 				7637DFE91DD9BD7F00271F62 /* GlobalVariable.swift in Sources */,
 				7654A0D51DD994D300AE669D /* SecondViewController.swift in Sources */,
 				76D4F4531DD2A75100F6FDA3 /* AppDelegate.swift in Sources */,
+				765F28A21DE13080003C3E08 /* temp_popViewController.swift in Sources */,
 				76669D251DDAC27100F934C7 /* AddBudgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,37 +641,35 @@
 		};
 		76D4F4781DD2A75100F6FDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F434BA588CCE920936EB7FE /* Pods-Moneybook.debug.xcconfig */;
+			baseConfigurationReference = 23FDC04F33AE69ACF84588E5 /* Pods-Moneybook.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JYF58Q7668;
 				INFOPLIST_FILE = Moneybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Moneybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
 		76D4F4791DD2A75100F6FDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4035E23003A7F24EE19E0059 /* Pods-Moneybook.release.xcconfig */;
+			baseConfigurationReference = A9DD8B72C7016358CFB78AEB /* Pods-Moneybook.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JYF58Q7668;
 				INFOPLIST_FILE = Moneybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Moneybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
 		76D4F47B1DD2A75100F6FDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADDB271E8741ADD986EFBCF9 /* Pods-MoneybookTests.debug.xcconfig */;
+			baseConfigurationReference = 53FF507AEAA3DB7614B82972 /* Pods-MoneybookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -671,7 +685,7 @@
 		};
 		76D4F47C1DD2A75100F6FDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7318BD5B80A460E26A01CFA /* Pods-MoneybookTests.release.xcconfig */;
+			baseConfigurationReference = 0F0F0A8318FAA19D50AF74C9 /* Pods-MoneybookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -687,7 +701,7 @@
 		};
 		76D4F47E1DD2A75100F6FDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 855B4805F596DE378A172F9F /* Pods-MoneybookUITests.debug.xcconfig */;
+			baseConfigurationReference = 14E0D7B936E23610915D34CE /* Pods-MoneybookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JYF58Q7668;
@@ -702,7 +716,7 @@
 		};
 		76D4F47F1DD2A75100F6FDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FDAF16AE9DD220489EDF4E6 /* Pods-MoneybookUITests.release.xcconfig */;
+			baseConfigurationReference = 5360215E29C1A097F8451904 /* Pods-MoneybookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JYF58Q7668;

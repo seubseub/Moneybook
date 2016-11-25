@@ -13,6 +13,9 @@ var array = [TODO]()
 
 var array_budget = [TODO]()
 
+var array_contents = [TODO]()
+var array_date = [TODO]()
+
 var SpendingSum = 0
 var DepositSum = 0
 
@@ -25,6 +28,8 @@ var tempclassified : String?
 var tempbudgetcontents : String?
 var tempbudgetMoney : String?
 var tempbudgetDate : String?
+
+var classisegue: String?
 
 
 

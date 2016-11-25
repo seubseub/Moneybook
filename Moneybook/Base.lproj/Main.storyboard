@@ -48,6 +48,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOA-mI-oE0">
+                                <rect key="frame" x="143" y="603" width="89" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Request"/>
+                                <connections>
+                                    <segue destination="8hE-Eo-rNS" kind="presentation" id="6g9-6j-ic0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88561505549972042" green="0.83484799453396008" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -72,7 +80,7 @@
                                 <rect key="frame" x="0.0" y="452" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LOB-4W-Ctf" id="43P-yG-PPE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="예산 합계" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVF-6K-Whb">
@@ -82,7 +90,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="예산을 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tk8-A1-TpI">
+                                        <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="예산을 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tk8-A1-TpI">
                                             <rect key="frame" x="91" y="6" width="210" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <nil key="textColor"/>
@@ -111,7 +119,7 @@
                                 <rect key="frame" x="0.0" y="508" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uzK-nV-9cO" id="Lmy-7g-1Zg">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="지출 합계" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISg-VB-oev">
@@ -121,7 +129,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="최근 지출의 합" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oBL-kS-Nvt">
+                                        <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="최근 지출의 합" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oBL-kS-Nvt">
                                             <rect key="frame" x="92" y="6" width="210" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <nil key="textColor"/>
@@ -145,11 +153,27 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvg-Ib-OF9">
-                                <rect key="frame" x="22" y="8" width="34" height="30"/>
+                                <rect key="frame" x="22" y="10" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="yU2-18-0K9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LI2-NM-10k">
+                                <rect key="frame" x="165" y="617" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Export"/>
+                                <connections>
+                                    <segue destination="HEb-gU-88i" kind="presentation" id="Xpe-fT-W4i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNY-eV-hXK">
+                                <rect key="frame" x="0.0" y="560" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="6NH-Y5-TUC" kind="presentation" id="gPY-LZ-Axm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -269,7 +293,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="상세 내용 : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SU4-nG-rqZ">
                                 <rect key="frame" x="16" y="177" width="77" height="21"/>
@@ -312,14 +336,20 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xjx-Da-mqq">
                                 <rect key="frame" x="101" y="268" width="232" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="Picker:" destination="lMI-OX-3hI" eventType="editingDidBegin" id="oSd-vn-10h"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24x-Jl-HkP">
-                                <rect key="frame" x="170" y="337" width="35" height="30"/>
+                                <rect key="frame" x="173" y="337" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="done"/>
+                                <state key="normal" title="완료"/>
                                 <connections>
                                     <action selector="donebuttonTapped:" destination="lMI-OX-3hI" eventType="touchUpInside" id="wxn-xy-mcM"/>
                                 </connections>
@@ -332,11 +362,14 @@
                         <outlet property="classify" destination="xjx-Da-mqq" id="xBl-WF-OZM"/>
                         <outlet property="contest" destination="XU1-np-Dve" id="t0I-jU-oVQ"/>
                         <outlet property="date" destination="wfG-Q7-zhF" id="nug-fN-F6R"/>
+                        <segue destination="gGx-Dh-8X1" kind="popoverPresentation" identifier="showpop" popoverAnchorView="xjx-Da-mqq" id="eC0-xW-GWF">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaR-fR-qCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3653.5999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="3401" y="134"/>
         </scene>
         <!--Budget View Controller-->
         <scene sceneID="UTo-M1-CGq">
@@ -379,7 +412,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="l6M-5g-HDL" kind="presentation" id="cnT-9y-lJA"/>
+                                            <segue destination="l6M-5g-HDL" kind="show" id="kSh-c9-f2D"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -389,11 +422,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="FJh-Sk-tco">
-                                        <barButtonItem key="leftBarButtonItem" title="Done" id="amb-Wq-pzF">
-                                            <connections>
-                                                <segue destination="HbP-HT-lta" kind="presentation" id="Gn7-Qb-M5M"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Done" id="amb-Wq-pzF"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -403,7 +432,7 @@
                     <navigationItem key="navigationItem" id="Mic-MY-gcu">
                         <barButtonItem key="leftBarButtonItem" title="Done" id="rCw-3f-KQo">
                             <connections>
-                                <segue destination="Cn5-6g-97o" kind="presentation" id="9gA-Xe-jL2"/>
+                                <segue destination="Cn5-6g-97o" kind="presentation" id="VRD-VP-rxa"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="7No-Qe-3Il">
@@ -418,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTZ-JG-m9x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2536.8000000000002" y="846.9265367316342"/>
+            <point key="canvasLocation" x="2537" y="847"/>
         </scene>
         <!--Add Budget View Controller-->
         <scene sceneID="S8E-L4-vmg">
@@ -458,7 +487,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DBB-Gi-cQ6">
                                 <rect key="frame" x="110" y="220" width="190" height="30"/>
@@ -503,7 +532,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8A-uc-dd9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3653.5999999999999" y="846.9265367316342"/>
+            <point key="canvasLocation" x="3402" y="847"/>
+        </scene>
+        <!--Temp pop View Controller-->
+        <scene sceneID="B5A-Km-LfG">
+            <objects>
+                <viewController storyboardIdentifier="tem_pop" id="gGx-Dh-8X1" customClass="temp_popViewController" customModule="Moneybook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WSu-3W-OjH"/>
+                        <viewControllerLayoutGuide type="bottom" id="L05-zB-aUZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rxw-6p-3i2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tx9-pq-kpC">
+                                <rect key="frame" x="0.0" y="-22" width="375" height="203"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="gGx-Dh-8X1" id="akS-bL-G8u"/>
+                                    <outlet property="delegate" destination="gGx-Dh-8X1" id="Sk4-sW-1dV"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="picker_View" destination="Tx9-pq-kpC" id="r6k-Dx-6ge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eGA-fp-OBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4293.6000000000004" y="542.87856071964018"/>
         </scene>
         <!--Budget Specific View Controller-->
         <scene sceneID="ATJ-p9-rp5">
@@ -560,7 +620,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1mH-K7-guP">
-                                <rect key="frame" x="138" y="271" width="98" height="30"/>
+                                <rect key="frame" x="138" y="271" width="134" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -577,7 +637,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ep5-MG-lij" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3653.5999999999999" y="1521.5892053973014"/>
+            <point key="canvasLocation" x="3400.8000000000002" y="1604.3478260869567"/>
         </scene>
         <!--Specificaiton View Controller-->
         <scene sceneID="gCB-uJ-r81">
@@ -666,7 +726,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qDj-aR-lwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3654" y="-633"/>
+            <point key="canvasLocation" x="3401" y="-634"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6gK-Hz-Rwa">
@@ -685,6 +745,96 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Xu-87-k80" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1598" y="134"/>
+        </scene>
+        <!--Temp request View Controller-->
+        <scene sceneID="eCU-EL-ULt">
+            <objects>
+                <viewController id="8hE-Eo-rNS" customClass="temp_requestViewController" customModule="Moneybook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M9x-C8-R6D"/>
+                        <viewControllerLayoutGuide type="bottom" id="gMI-1q-zl6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cso-QH-QPC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGG-Yc-FkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169" y="847"/>
+        </scene>
+        <!--Pie Chart View Controller-->
+        <scene sceneID="TwV-TN-8zN">
+            <objects>
+                <viewController id="HEb-gU-88i" customClass="PieChartViewController" customModule="Moneybook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ly6-u5-aMb"/>
+                        <viewControllerLayoutGuide type="bottom" id="ihh-Eh-cGC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="nqA-7B-yEF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWb-jf-M2Q">
+                                <rect key="frame" x="23" y="20" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="Cn5-6g-97o" kind="presentation" id="lZ1-zr-irp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SL1-V7-HL4">
+                                <rect key="frame" x="152" y="83" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CreateFile"/>
+                                <connections>
+                                    <action selector="CreateFile:" destination="HEb-gU-88i" eventType="touchUpInside" id="j3D-hU-PVU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sol-kh-Gbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="934"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TSb-2J-Eh4">
+            <objects>
+                <viewController id="6NH-Y5-TUC" customClass="PCViewController" customModule="Moneybook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RHl-Ou-o68"/>
+                        <viewControllerLayoutGuide type="bottom" id="pEk-vp-AQq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JA6-df-hn3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="42P-Fy-gbx" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="65" width="375" height="493"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Qq-mH-12I">
+                                <rect key="frame" x="14" y="11" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="fucking"/>
+                                <connections>
+                                    <segue destination="Cn5-6g-97o" kind="presentation" id="0uk-Jx-4zK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="charView" destination="42P-Fy-gbx" id="1FZ-bb-G9o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G8f-KO-UTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="1525.1874062968518"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c5i-xj-LMr">
@@ -706,7 +856,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8mU-q6-BtZ"/>
-        <segue reference="TEy-d8-B15"/>
+        <segue reference="lZ1-zr-irp"/>
     </inferredMetricsTieBreakers>
 </document>

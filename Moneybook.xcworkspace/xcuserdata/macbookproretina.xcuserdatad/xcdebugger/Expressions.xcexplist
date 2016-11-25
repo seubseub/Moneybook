@@ -3,6 +3,52 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "AddTodoViewController.datePickAction(Any) -&gt; ():AddTodoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "myDatePicker.date">
+            </PersistentString>
+            <PersistentString
+               value = "myDatePicker">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "temp_popViewController.pickerView(UIPickerView, didSelectRow : Int, inComponent : Int) -&gt; ():temp_popViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "classisegue">
+            </PersistentString>
+            <PersistentString
+               value = "Array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MoneyViewController.calendar(FSCalendar, numberOfEventsFor : Date) -&gt; Int:MoneyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arr_date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PieChartViewController.CreateFile(Any) -&gt; ():PieChartViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PCViewController.viewDidLoad() -&gt; ():PCViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "SecondViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SecondViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -11,13 +57,13 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "AddTodoViewController.datePickAction(Any) -&gt; ():AddTodoViewController.swift">
+         contextName = "MoneyViewController.calendar(FSCalendar, hasEventFor : Date) -&gt; Bool:MoneyViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "myDatePicker.date">
+               value = "array_date.count">
             </PersistentString>
             <PersistentString
-               value = "myDatePicker">
+               value = "array_date">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

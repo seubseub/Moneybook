@@ -29,7 +29,8 @@ class AddBudgetViewController: UIViewController {
     }
     @IBAction func datePick(_ sender: UITextField) {
         let datePickerView:UIDatePicker = UIDatePicker()
-        
+
+        //datePickerView.date
         datePickerView.datePickerMode = UIDatePickerMode.date
         
         sender.inputView = datePickerView
@@ -54,9 +55,7 @@ class AddBudgetViewController: UIViewController {
         
         let dateFormatter = DateFormatter()
         
-        dateFormatter.dateStyle = DateFormatter.Style.medium
-        
-        dateFormatter.timeStyle = DateFormatter.Style.none
+        dateFormatter.dateFormat = "yyyy-MM-dd"
         
         Date.text = dateFormatter.string(from: sender.date)
         

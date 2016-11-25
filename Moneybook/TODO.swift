@@ -11,12 +11,24 @@ import UIKit
 class TODO {
 
     var spend : String!
+    var contents_spend : String!
     var deposit : String!
-    init(spend : String) {
+    var date : String!
+    init() {
+        
+    }
+    init(spend : String ) {
         self.spend = spend
+    }
+    init(contents : String) {
+        self.contents_spend = contents
     }
     
     init(deposit : String) {
         self.deposit = deposit
+    }
+    
+    init(date : String) {
+        self.date = date
     }
 }

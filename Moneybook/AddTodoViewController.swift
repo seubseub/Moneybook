@@ -8,8 +8,34 @@
 
 import UIKit
 
-class AddTodoViewController: UIViewController {
-
+class AddTodoViewController: UIViewController, UIPopoverPresentationControllerDelegate {
+    @IBAction func Picker(_ sender: Any) {
+        self.performSegue(withIdentifier: "showpop", sender: self)
+        
+        
+        
+        classify.text = classisegue
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "showpop") {
+            let vc = segue.destination
+            vc.preferredContentSize = CGSize(width: 250, height: 180)
+            let controller = vc.popoverPresentationController
+            
+            if(controller != nil)
+            {
+                controller?.delegate = self
+            }
+            
+        }
+        classify.text = classisegue
+    }
+    
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .none
+    }
+    
+    
     //let tempstring: String?
     @IBAction func pickdate(_ sender: UITextField) {
         let datePickerView:UIDatePicker = UIDatePicker()
@@ -29,6 +55,8 @@ class AddTodoViewController: UIViewController {
     @IBAction func donebuttonTapped(_ sender: Any) {
         
         array.append(TODO(spend: SpendingData.text!))
+        array_contents.append(TODO(contents: contest.text!))
+        array_date.append(TODO(date : date.text!))
         
         Stringtemp = SpendingData.text
         
@@ -68,9 +96,10 @@ class AddTodoViewController: UIViewController {
         
         let dateFormatter = DateFormatter()
         
-        dateFormatter.dateStyle = DateFormatter.Style.medium
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        //dateFormatter.dateStyle = DateFormatter.Style.long
         
-        dateFormatter.timeStyle = DateFormatter.Style.none
+        //dateFormatter.timeStyle = DateFormatter.Style.none
         
         date.text = dateFormatter.string(from: sender.date)
         
