@@ -22,19 +22,11 @@ class SpecificaitonViewController: UIViewController {
         contents.text = tempcontents
         date.text = tempdate
         classified.text = tempclassified
-        
         money.text = Stringtemp
-        
-
         // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if(tempcontents != nil && tempclassified != nil && tempdate != nil) {
-            //contents.text = tempcontents
-            //date.text = tempdate
-            //classified.text = tempclassified
-        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,17 +10,25 @@
 		390092D72D4004FAAE5B45B4 /* Pods_MoneybookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27AA5DE57D97CE31B6B4F95 /* Pods_MoneybookUITests.framework */; };
 		760ABDD71DDD42380014E20B /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760ABDD61DDD42380014E20B /* PieChartViewController.swift */; };
 		760D21DD1DD5C48300DD75F8 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760D21DC1DD5C48300DD75F8 /* MoneyViewController.swift */; };
+		7611E9871DF6E43A00599CCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7611E9861DF6E43A00599CCF /* GoogleService-Info.plist */; };
 		7637DFE41DD9B7B700271F62 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFE31DD9B7B700271F62 /* TODO.swift */; };
 		7637DFE61DD9BA7800271F62 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFE51DD9BA7800271F62 /* AddTodoViewController.swift */; };
 		7637DFE91DD9BD7F00271F62 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFE81DD9BD7F00271F62 /* GlobalVariable.swift */; };
 		7637DFEC1DD9D94800271F62 /* SpecificaitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637DFEB1DD9D94800271F62 /* SpecificaitonViewController.swift */; };
 		7654A0D51DD994D300AE669D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654A0D41DD994D300AE669D /* SecondViewController.swift */; };
+		765C8C5F1DEC966B00AC6573 /* DiaryCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 765C8C5E1DEC966B00AC6573 /* DiaryCover.png */; };
+		765C8C611DEC982900AC6573 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C8C601DEC982900AC6573 /* LoginViewController.swift */; };
+		765C8C631DEC98B200AC6573 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C8C621DEC98B200AC6573 /* RegisterViewController.swift */; };
+		765C8C661DECCDA300AC6573 /* groupselectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C8C651DECCDA300AC6573 /* groupselectViewController.swift */; };
 		765F289F1DE12A53003C3E08 /* temp_requestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F289E1DE12A53003C3E08 /* temp_requestViewController.swift */; };
-		765F28A21DE13080003C3E08 /* temp_popViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F28A11DE13080003C3E08 /* temp_popViewController.swift */; };
 		765F28F11DE4851A003C3E08 /* PCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F28F01DE4851A003C3E08 /* PCViewController.swift */; };
 		76669D231DDAB22A00F934C7 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76669D221DDAB22A00F934C7 /* BudgetViewController.swift */; };
 		76669D251DDAC27100F934C7 /* AddBudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76669D241DDAC27100F934C7 /* AddBudgetViewController.swift */; };
 		76669D271DDAD0B000F934C7 /* BudgetSpecificViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76669D261DDAD0B000F934C7 /* BudgetSpecificViewController.swift */; };
+		767D88071DE8E1FE0029B5C0 /* showdetaildateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D88061DE8E1FE0029B5C0 /* showdetaildateViewController.swift */; };
+		767D88131DEA61490029B5C0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D88121DEA61490029B5C0 /* NotificationService.swift */; };
+		767D88171DEA61490029B5C0 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 767D88101DEA61490029B5C0 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		767D881D1DEA72420029B5C0 /* PC_contensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D881C1DEA72420029B5C0 /* PC_contensViewController.swift */; };
 		76D4F4531DD2A75100F6FDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4F4521DD2A75100F6FDA3 /* AppDelegate.swift */; };
 		76D4F4551DD2A75100F6FDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4F4541DD2A75100F6FDA3 /* ViewController.swift */; };
 		76D4F4581DD2A75100F6FDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D4F4561DD2A75100F6FDA3 /* Main.storyboard */; };
@@ -33,6 +41,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		767D88151DEA61490029B5C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D4F4471DD2A75100F6FDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767D880F1DEA61490029B5C0;
+			remoteInfo = NotificationService;
+		};
 		76D4F4641DD2A75100F6FDA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 76D4F4471DD2A75100F6FDA3 /* Project object */;
@@ -49,6 +64,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		767D881B1DEA61490029B5C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				767D88171DEA61490029B5C0 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0F0F0A8318FAA19D50AF74C9 /* Pods-MoneybookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookTests/Pods-MoneybookTests.release.xcconfig"; sourceTree = "<group>"; };
 		14E0D7B936E23610915D34CE /* Pods-MoneybookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookUITests/Pods-MoneybookUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,17 +87,27 @@
 		53FF507AEAA3DB7614B82972 /* Pods-MoneybookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneybookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneybookTests/Pods-MoneybookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		760ABDD61DDD42380014E20B /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		760D21DC1DD5C48300DD75F8 /* MoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		7611E9861DF6E43A00599CCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7637DFE31DD9B7B700271F62 /* TODO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		7637DFE51DD9BA7800271F62 /* AddTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
 		7637DFE81DD9BD7F00271F62 /* GlobalVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
 		7637DFEB1DD9D94800271F62 /* SpecificaitonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificaitonViewController.swift; sourceTree = "<group>"; };
 		7654A0D41DD994D300AE669D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		765C8C5E1DEC966B00AC6573 /* DiaryCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiaryCover.png; sourceTree = "<group>"; };
+		765C8C601DEC982900AC6573 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		765C8C621DEC98B200AC6573 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		765C8C651DECCDA300AC6573 /* groupselectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = groupselectViewController.swift; sourceTree = "<group>"; };
 		765F289E1DE12A53003C3E08 /* temp_requestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = temp_requestViewController.swift; sourceTree = "<group>"; };
-		765F28A11DE13080003C3E08 /* temp_popViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = temp_popViewController.swift; sourceTree = "<group>"; };
 		765F28F01DE4851A003C3E08 /* PCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCViewController.swift; sourceTree = "<group>"; };
 		76669D221DDAB22A00F934C7 /* BudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		76669D241DDAC27100F934C7 /* AddBudgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBudgetViewController.swift; sourceTree = "<group>"; };
 		76669D261DDAD0B000F934C7 /* BudgetSpecificViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetSpecificViewController.swift; sourceTree = "<group>"; };
+		767D88061DE8E1FE0029B5C0 /* showdetaildateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showdetaildateViewController.swift; sourceTree = "<group>"; };
+		767D880B1DEA037E0029B5C0 /* Moneybook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moneybook.entitlements; sourceTree = "<group>"; };
+		767D88101DEA61490029B5C0 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		767D88121DEA61490029B5C0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		767D88141DEA61490029B5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767D881C1DEA72420029B5C0 /* PC_contensViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PC_contensViewController.swift; sourceTree = "<group>"; };
 		76D4F44F1DD2A75100F6FDA3 /* Moneybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moneybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D4F4521DD2A75100F6FDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76D4F4541DD2A75100F6FDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +127,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		767D880D1DEA61490029B5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76D4F44C1DD2A75100F6FDA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,12 +171,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		767D88111DEA61490029B5C0 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				767D88121DEA61490029B5C0 /* NotificationService.swift */,
+				767D88141DEA61490029B5C0 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
 		76D4F4461DD2A75100F6FDA3 = {
 			isa = PBXGroup;
 			children = (
 				76D4F4511DD2A75100F6FDA3 /* Moneybook */,
 				76D4F4661DD2A75100F6FDA3 /* MoneybookTests */,
 				76D4F4711DD2A75100F6FDA3 /* MoneybookUITests */,
+				767D88111DEA61490029B5C0 /* NotificationService */,
 				76D4F4501DD2A75100F6FDA3 /* Products */,
 				928FB8D2B551D08CA0A3BB96 /* Pods */,
 				290B11FB7D214810A581262C /* Frameworks */,
@@ -143,6 +199,7 @@
 				76D4F44F1DD2A75100F6FDA3 /* Moneybook.app */,
 				76D4F4631DD2A75100F6FDA3 /* MoneybookTests.xctest */,
 				76D4F46E1DD2A75100F6FDA3 /* MoneybookUITests.xctest */,
+				767D88101DEA61490029B5C0 /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,25 +207,32 @@
 		76D4F4511DD2A75100F6FDA3 /* Moneybook */ = {
 			isa = PBXGroup;
 			children = (
+				7611E9861DF6E43A00599CCF /* GoogleService-Info.plist */,
+				767D880B1DEA037E0029B5C0 /* Moneybook.entitlements */,
 				76D4F4521DD2A75100F6FDA3 /* AppDelegate.swift */,
 				76D4F4541DD2A75100F6FDA3 /* ViewController.swift */,
 				76D4F4561DD2A75100F6FDA3 /* Main.storyboard */,
+				765C8C5E1DEC966B00AC6573 /* DiaryCover.png */,
 				76D4F4591DD2A75100F6FDA3 /* Assets.xcassets */,
 				76D4F45B1DD2A75100F6FDA3 /* LaunchScreen.storyboard */,
 				76D4F45E1DD2A75100F6FDA3 /* Info.plist */,
 				760D21DC1DD5C48300DD75F8 /* MoneyViewController.swift */,
 				7654A0D41DD994D300AE669D /* SecondViewController.swift */,
+				7637DFEB1DD9D94800271F62 /* SpecificaitonViewController.swift */,
 				76669D221DDAB22A00F934C7 /* BudgetViewController.swift */,
 				7637DFE31DD9B7B700271F62 /* TODO.swift */,
+				765F289E1DE12A53003C3E08 /* temp_requestViewController.swift */,
 				7637DFE51DD9BA7800271F62 /* AddTodoViewController.swift */,
 				7637DFE81DD9BD7F00271F62 /* GlobalVariable.swift */,
-				7637DFEB1DD9D94800271F62 /* SpecificaitonViewController.swift */,
 				76669D241DDAC27100F934C7 /* AddBudgetViewController.swift */,
 				76669D261DDAD0B000F934C7 /* BudgetSpecificViewController.swift */,
 				760ABDD61DDD42380014E20B /* PieChartViewController.swift */,
-				765F289E1DE12A53003C3E08 /* temp_requestViewController.swift */,
-				765F28A11DE13080003C3E08 /* temp_popViewController.swift */,
 				765F28F01DE4851A003C3E08 /* PCViewController.swift */,
+				767D88061DE8E1FE0029B5C0 /* showdetaildateViewController.swift */,
+				767D881C1DEA72420029B5C0 /* PC_contensViewController.swift */,
+				765C8C601DEC982900AC6573 /* LoginViewController.swift */,
+				765C8C621DEC98B200AC6573 /* RegisterViewController.swift */,
+				765C8C651DECCDA300AC6573 /* groupselectViewController.swift */,
 			);
 			path = Moneybook;
 			sourceTree = "<group>";
@@ -207,6 +271,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		767D880F1DEA61490029B5C0 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767D88181DEA61490029B5C0 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				767D880C1DEA61490029B5C0 /* Sources */,
+				767D880D1DEA61490029B5C0 /* Frameworks */,
+				767D880E1DEA61490029B5C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 767D88101DEA61490029B5C0 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		76D4F44E1DD2A75100F6FDA3 /* Moneybook */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76D4F4771DD2A75100F6FDA3 /* Build configuration list for PBXNativeTarget "Moneybook" */;
@@ -217,10 +298,12 @@
 				76D4F44D1DD2A75100F6FDA3 /* Resources */,
 				4DAF3DBBD69E7063B20F50EB /* [CP] Embed Pods Frameworks */,
 				2D4A72178FEBA92E333C68F9 /* [CP] Copy Pods Resources */,
+				767D881B1DEA61490029B5C0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				767D88161DEA61490029B5C0 /* PBXTargetDependency */,
 			);
 			name = Moneybook;
 			productName = Moneybook;
@@ -278,11 +361,27 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = com;
 				TargetAttributes = {
+					767D880F1DEA61490029B5C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 47RZ4GF77T;
+						ProvisioningStyle = Automatic;
+					};
 					76D4F44E1DD2A75100F6FDA3 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = JYF58Q7668;
+						DevelopmentTeam = 47RZ4GF77T;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					76D4F4621DD2A75100F6FDA3 = {
 						CreatedOnToolsVersion = 8.1;
@@ -316,16 +415,26 @@
 				76D4F44E1DD2A75100F6FDA3 /* Moneybook */,
 				76D4F4621DD2A75100F6FDA3 /* MoneybookTests */,
 				76D4F46D1DD2A75100F6FDA3 /* MoneybookUITests */,
+				767D880F1DEA61490029B5C0 /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		767D880E1DEA61490029B5C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76D4F44D1DD2A75100F6FDA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				76D4F45D1DD2A75100F6FDA3 /* LaunchScreen.storyboard in Resources */,
+				765C8C5F1DEC966B00AC6573 /* DiaryCover.png in Resources */,
+				7611E9871DF6E43A00599CCF /* GoogleService-Info.plist in Resources */,
 				76D4F45A1DD2A75100F6FDA3 /* Assets.xcassets in Resources */,
 				76D4F4581DD2A75100F6FDA3 /* Main.storyboard in Resources */,
 			);
@@ -471,16 +580,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		767D880C1DEA61490029B5C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767D88131DEA61490029B5C0 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76D4F44B1DD2A75100F6FDA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765C8C611DEC982900AC6573 /* LoginViewController.swift in Sources */,
 				765F289F1DE12A53003C3E08 /* temp_requestViewController.swift in Sources */,
 				760D21DD1DD5C48300DD75F8 /* MoneyViewController.swift in Sources */,
+				765C8C661DECCDA300AC6573 /* groupselectViewController.swift in Sources */,
 				76D4F4551DD2A75100F6FDA3 /* ViewController.swift in Sources */,
+				765C8C631DEC98B200AC6573 /* RegisterViewController.swift in Sources */,
 				7637DFEC1DD9D94800271F62 /* SpecificaitonViewController.swift in Sources */,
 				7637DFE41DD9B7B700271F62 /* TODO.swift in Sources */,
 				76669D231DDAB22A00F934C7 /* BudgetViewController.swift in Sources */,
+				767D881D1DEA72420029B5C0 /* PC_contensViewController.swift in Sources */,
+				767D88071DE8E1FE0029B5C0 /* showdetaildateViewController.swift in Sources */,
 				76669D271DDAD0B000F934C7 /* BudgetSpecificViewController.swift in Sources */,
 				760ABDD71DDD42380014E20B /* PieChartViewController.swift in Sources */,
 				765F28F11DE4851A003C3E08 /* PCViewController.swift in Sources */,
@@ -488,7 +610,6 @@
 				7637DFE91DD9BD7F00271F62 /* GlobalVariable.swift in Sources */,
 				7654A0D51DD994D300AE669D /* SecondViewController.swift in Sources */,
 				76D4F4531DD2A75100F6FDA3 /* AppDelegate.swift in Sources */,
-				765F28A21DE13080003C3E08 /* temp_popViewController.swift in Sources */,
 				76669D251DDAC27100F934C7 /* AddBudgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +633,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		767D88161DEA61490029B5C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767D880F1DEA61490029B5C0 /* NotificationService */;
+			targetProxy = 767D88151DEA61490029B5C0 /* PBXContainerItemProxy */;
+		};
 		76D4F4651DD2A75100F6FDA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 76D4F44E1DD2A75100F6FDA3 /* Moneybook */;
@@ -544,6 +670,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		767D88191DEA61490029B5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.seub.Moneybook";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 47RZ4GF77T;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seub.Moneybook.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		767D881A1DEA61490029B5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 47RZ4GF77T;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seub.Moneybook.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		76D4F4751DD2A75100F6FDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -643,12 +797,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23FDC04F33AE69ACF84588E5 /* Pods-Moneybook.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JYF58Q7668;
+				CODE_SIGN_ENTITLEMENTS = Moneybook/Moneybook.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.seub.Moneybook";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 47RZ4GF77T;
 				INFOPLIST_FILE = Moneybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moneybook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seub.Moneybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
@@ -657,12 +816,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9DD8B72C7016358CFB78AEB /* Pods-Moneybook.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JYF58Q7668;
+				CODE_SIGN_ENTITLEMENTS = Moneybook/Moneybook.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 47RZ4GF77T;
 				INFOPLIST_FILE = Moneybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moneybook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seub.Moneybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
@@ -732,6 +896,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		767D88181DEA61490029B5C0 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767D88191DEA61490029B5C0 /* Debug */,
+				767D881A1DEA61490029B5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		76D4F44A1DD2A75100F6FDA3 /* Build configuration list for PBXProject "Moneybook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -12,6 +12,7 @@ import Charts
 class PCViewController: UIViewController {
 
     @IBOutlet weak var charView: PieChartView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         charView.noDataText = "no data!!!!!!!!"
@@ -19,18 +20,14 @@ class PCViewController: UIViewController {
         charView.drawEntryLabelsEnabled = true
         var dataEntries: [PieChartDataEntry] = []
         
-        
-        var label_y : [String] = []
         for i in 1..<(array.count+1) {
             
             let dataEntry = PieChartDataEntry(value: Double(array[i-1].spend)!, label: array_date[i-1].date, data: "charr" as AnyObject)
             dataEntries.append(dataEntry)
-            label_y.append(String(i))
-            
         }
         
 
-        let pieChartDataSet = PieChartDataSet(values: dataEntries, label: "Chart Data")
+        let pieChartDataSet = PieChartDataSet(values: dataEntries, label: " ")
         
         var colors: [UIColor] = []
         let legends = charView.legend // legend는 Index Box

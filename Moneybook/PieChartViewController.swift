@@ -14,57 +14,19 @@ class PieChartViewController: UIViewController {
 
     @IBAction func CreateFile(_ sender: Any) {
         
-        let writePath = NSURL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("testy.txt")
+        displayAlertMassage("File Successfully Exported!")
+        let tempdata = "hihihi"
+        let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("test.csv")
         
-        let testPath = NSURL(fileURLWithPath: NSHomeDirectory())
-        //let path = tmpDir.stringByAppendingPathComponent(fileName)
-        let contentsOfFile = "Sample Text"
         
-        var error: NSError?
-        let urlstring = "/Users/macbookproretina/Desktop/real.mp4"
-        let url = NSURL(string: urlstring)
         
-        let urlst : String = (writePath?.path)!
-        
-        // Write File
-        
-        print(writePath!)
-        print("testpath for home directory : \(testPath)")
-        var arr_spend: [String] = []
         do {
-            if(array.count != 0) {
-                for i in 0...(array.count-1) {
-                    arr_spend.append(array[i].spend)
-                    print("array success")
-                }
-                
-                let result = arr_spend.joined(separator: ",")
-                
-                try result.write(toFile: urlst, atomically: true, encoding: String.Encoding.utf8)
-                print("Yesssss!!!")
-                
-                //try contentsOfFile.write(toFile: urlstring, atomically: true, encoding: String.Encoding.utf8)
-                if(NSTemporaryDirectory().isEmpty == true)
-                {
-                    print("Temporary direct no data")
-                }
-                else {
-                    print("Goood done!!!!")
-                }
-                
-            }
+            try tempdata.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
             
-            
-            else {
-                try contentsOfFile.write(toFile: urlstring, atomically: true, encoding: String.Encoding.utf8)
-                print("why file is not made?????")
-            }
-            
-            
+        } catch {
+            print(error)
         }
-        catch {
-            print("err")
-        }
+        
     }
     
     
@@ -79,4 +41,13 @@ class PieChartViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func displayAlertMassage(_ Massge : String)
+    {
+        let alert = UIAlertController(title: "알림", message: Massge, preferredStyle: UIAlertControllerStyle.alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
+        alert.addAction(okAction)
+        
+        self.present(alert, animated:true, completion: nil)
+    }
 }

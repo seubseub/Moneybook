@@ -16,19 +16,48 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var Money: UILabel!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return array.count
+        if(requestGROUP == 0 ) {
+            return array.count
+        } else if(requestGROUP == 1 || requestGROUP == 2) {
+            return array_request.count
+        }else {
+            return 0
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         
-        let todolist = array[indexPath.row]
+        if(requestGROUP == 0 ) {
+            let todolist = array[indexPath.row]
+            cell.textLabel?.text = todolist.spend
+        } else if(requestGROUP == 1 || requestGROUP == 2) {
+            let todolist = array_request[indexPath.row]
+            cell.textLabel?.text = todolist.spend
+        }
+        
+        //let todolist = array[indexPath.row]
         
         
-        cell.textLabel?.text = todolist.spend
+        //cell.textLabel?.text = todolist.spend
        // cell.textLabel?.center
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if(requestGROUP == 1 || requestGROUP == 2) {
+        let ff = array_request[indexPath.row]
+        tempcontents = ff.contents_spend
+        tempdate = ff.date
+        tempclassified = ff.classify
+        Stringtemp = ff.spend
+        } else {
+            let todo = array[indexPath.row]
+            tempcontents = todo.contents_spend
+            tempdate = todo.date
+            tempclassified = todo.classify
+            Stringtemp = todo.spend
+        }
     }
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

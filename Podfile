@@ -11,6 +11,8 @@ target 'Moneybook' do
   pod 'RealmSwift', '~> 2.0.2'
   pod 'CorePlot', '~> 2.2'
   pod 'Alamofire', '~> 4.0'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
 
 
   target 'MoneybookTests' do

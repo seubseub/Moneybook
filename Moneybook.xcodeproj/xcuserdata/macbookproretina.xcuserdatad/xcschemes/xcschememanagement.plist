@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>NotificationService.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>767D880F1DEA61490029B5C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>76D4F44E1DD2A75100F6FDA3</key>
 		<dict>
 			<key>primary</key>

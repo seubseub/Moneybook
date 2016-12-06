@@ -3,6 +3,72 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "PCViewController.viewDidLoad() -&gt; ():PCViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MoneyViewController.(viewDidLoad() -&gt; ()).(closure #1):MoneyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array_request">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTodoViewController.donebuttonTapped(Any) -&gt; ():AddTodoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "classify.text">
+            </PersistentString>
+            <PersistentString
+               value = "tempcontents">
+            </PersistentString>
+            <PersistentString
+               value = "contest.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PC_contensViewController.EndingSelect(UITextField) -&gt; ():PC_contensViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "temp_num">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PC_contensViewController.viewDidLoad() -&gt; ():PC_contensViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array_request">
+            </PersistentString>
+            <PersistentString
+               value = "dataEntries">
+            </PersistentString>
+            <PersistentString
+               value = "arr_dinner_spend">
+            </PersistentString>
+            <PersistentString
+               value = "Spend_count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RegisterViewController.RegisterButton(Any) -&gt; ():RegisterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "RegisterID">
+            </PersistentString>
+            <PersistentString
+               value = "RegisterID.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "AddTodoViewController.datePickAction(Any) -&gt; ():AddTodoViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -10,6 +76,28 @@
             </PersistentString>
             <PersistentString
                value = "myDatePicker">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SecondViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MoneyViewController.calendar(FSCalendar, didSelect : Date) -&gt; ():MoneyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array_date.count">
+            </PersistentString>
+            <PersistentString
+               value = "arr_date">
+            </PersistentString>
+            <PersistentString
+               value = "arr_date.count">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -25,34 +113,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "MoneyViewController.calendar(FSCalendar, numberOfEventsFor : Date) -&gt; Int:MoneyViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "arr_date">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "PieChartViewController.CreateFile(Any) -&gt; ():PieChartViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "array.count">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "PCViewController.viewDidLoad() -&gt; ():PCViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "array.count">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "SecondViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:SecondViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "array">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -64,6 +128,14 @@
             </PersistentString>
             <PersistentString
                value = "array_date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MoneyViewController.calendar(FSCalendar, numberOfEventsFor : Date) -&gt; Int:MoneyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arr_date">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

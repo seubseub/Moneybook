@@ -14,6 +14,7 @@ class TODO {
     var contents_spend : String!
     var deposit : String!
     var date : String!
+    var classify : String!
     init() {
         
     }
@@ -30,5 +31,11 @@ class TODO {
     
     init(date : String) {
         self.date = date
+    }
+    init(date : String,  spend : String, content : String, classify : String ) {
+        self.date = date
+        self.spend = spend
+        self.contents_spend = content
+        self.classify = classify
     }
 }

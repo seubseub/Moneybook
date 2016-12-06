@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Moneybook.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,17 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>221295E501597E28DB5ABFC7CA717C27</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>336E33720EBBBE0CA57F46647989429B</key>
+		<key>1EE568DAD76269D2487CE449F15CE5FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5ABE4142B5FB19227B90E66AB13139BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76478CD7BBFE228A6E6D05E5E50D4DFF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,7 +92,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B34E2692AE21AF83ED93A58B3CC2EC1A</key>
+		<key>A39AE9B86CF2AEB697C25DF98BAFEBF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4C700423E467D490C479BE15696A746</key>
 		<dict>
 			<key>primary</key>
 			<true/>
